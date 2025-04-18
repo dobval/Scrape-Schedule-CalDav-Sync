@@ -1,2 +1,5 @@
 # Ignore the workflow images generated from workflow.py
 university*.png
+
+# Ignore those from the remote repo too
+docs/university*.png
