@@ -83,11 +83,7 @@ python sync_schedule.py
 
 The following diagram illustrates the whole workflow:
 
-<div align="center">
-  <img src="docs/university_schedule_sync_workflow_tb.png" alt="Workflow Diagram" style="max-height: 90vh; width: auto; object-fit: contain;">
-</div>
-
-
+ [Workflow Diagram](docs/university_schedule_sync_workflow_tb.png)
 
 ## License
 
