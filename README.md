@@ -1,7 +1,3 @@
-Sure! Below is a sample `README.md` file for the script that parses a university schedule, creates calendar events, and syncs them with a CalDAV server. This `README.md` provides an overview of the project, installation instructions, usage instructions, and additional information.
-
----
-
 # University Schedule to CalDAV Sync
 
 This project provides a Python script to parse a university schedule from a website, create calendar events, and sync them with a CalDAV server. The script can be used to automate the process of updating your calendar with your university schedule.
@@ -13,7 +9,7 @@ This project provides a Python script to parse a university schedule from a webs
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [UML Diagram](#uml-diagram)
+- [Workflow Diagram](#workflow-diagram)
 - [License](#license)
 
 ---
@@ -83,14 +79,14 @@ python sync_schedule.py
 
 ---
 
-## Diagram
 ## Workflow Diagram
 
 The following diagram illustrates the whole workflow:
 
 <div align="center">
-  <img src="docs/university_schedule_sync_workflow_tb.png" alt="Workflow Diagram" style="max-height: 100vh; width: auto;">
+  <img src="docs/university_schedule_sync_workflow_tb.png" alt="Workflow Diagram" style="max-height: 90vh; width: auto; object-fit: contain;">
 </div>
+
 
 
 ## License
