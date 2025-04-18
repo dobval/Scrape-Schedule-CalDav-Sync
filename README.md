@@ -16,7 +16,7 @@ This project provides a Python script to parse a university schedule from a webs
 
 ## Features
 
-- Parses the university schedule from a given URL.
+- Parses the university schedule from a given URL (in this ![case](https://programm.fdiba.tu-sofia.bg/de/?q=plan_group&week=12&group=339)).
 - Creates calendar events (`VEVENT`) from the parsed schedule data.
 - Saves the created events to an `.ics` file.
 - Syncs the `.ics` file with a CalDAV server.
@@ -38,8 +38,8 @@ This project provides a Python script to parse a university schedule from a webs
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/university-schedule-to-caldav.git
-cd university-schedule-to-caldav
+git clone https://github.com/dobval/crape-schedule-to-caldav-sync.git
+cd scrape-schedule-to-caldav-sync
 ```
 
 2. **Install Required Libraries:**
