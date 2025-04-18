@@ -81,9 +81,19 @@ python sync_schedule.py
 
 ## Workflow Diagram
 
-The following diagram illustrates the whole workflow:
+The following diagram illustrates the whole workflow (Left-Right and Top-Bottom):
 
- [Workflow Diagram](docs/university_schedule_sync_workflow_tb.png)
+   ![Workflow Diagram Left-Right](docs/university_schedule_sync_workflow_lr.png)
+   <details>
+      <summary>Workflow Diagram Top-Bottom</summary>
+      <p align="center">
+         <img src="docs/university_schedule_sync_workflow_tb.png" alt="Workflow Diagram Top-Bottom" />
+      </p>
+   </details>
+   <!---
+   ![Workflow Diagram Top-Bottom](docs/university_schedule_sync_workflow_tb.png)
+   --->
+   
 
 ## License
 
