@@ -38,7 +38,7 @@ This project provides a Python script to parse a university schedule from a webs
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/dobval/crape-schedule-to-caldav-sync.git
+git clone https://github.com/dobval/scrape-schedule-to-caldav-sync.git
 cd scrape-schedule-to-caldav-sync
 ```
 
