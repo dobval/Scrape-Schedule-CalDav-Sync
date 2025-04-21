@@ -16,7 +16,7 @@ This project provides Python scripts to parse a university schedule from a websi
 
 ## Features
 
-- Parses the university schedule from a given URL (e.g., https://programm.fdiba.tu-sofia.bg/de/?q=plan_group&week=12&group=325).
+- Parses the university schedule from a given URL (e.g., [example weekly schedule](https://programm.fdiba.tu-sofia.bg/de/?q=plan_group&week=12&group=325) and [example exam schedule](https://tu-sofia.bg/examsfiles/%D0%A4%D0%B0%D0%93%D0%98%D0%9E%D0%9F%D0%9C-%D0%9A%D0%A1%D0%A2%D0%9D%D0%95--potok-17-kurs-3_1.html)).
 - Creates calendar events (`VEVENT`) from the parsed schedule data.
 - Saves the created events to an `.ics` file.
 - **Full Sync**: Syncs the `.ics` file with a CalDAV server.
@@ -83,13 +83,17 @@ python sync_schedule.py
 
 Prompts for CalDAV credentials, parses upcoming semester weeks, and syncs events to the CalDAV server.
 
-### Standalone Export (`only_schedule.py`)
+### Standalone Export (`only_schedule.py`) (`only_exams.py`)
 
 ```bash
 python only_schedule.py
 ```
-
 Fetches the defined weeks, merges all parsed lectures into a single calendar, and writes `merged_schedule.ics` to the current directory. No CalDAV server required.
+
+```bash
+python only_exams.py
+```
+Writes `merged_exams_<group>.ics`. Can be called with an argument as the group number or the script will prompt otherwise.
 
 ---
 
